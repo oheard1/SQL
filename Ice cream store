@@ -1,0 +1,20 @@
+CREATE TABLE icecream (id INTEGER PRIMARY KEY, name TEXT, quantity INTEGER, price INTEGER, Stock TEXT);
+
+Insert INTO icecream VALUES (1, "Chocolate", "5", 11, "no"); 
+Insert INTO icecream VALUES (2, "Peanut Butter", "5", 12, "yes"); 
+Insert INTO icecream VALUES (3, "Dark Chocolate", "5", 11, "yes"); 
+Insert INTO icecream VALUES (4, "Banana", "5", 9, "no"); 
+Insert INTO icecream VALUES (5, "Blueberry", "5", 10, "yes"); 
+Insert INTO icecream VALUES (6, "Pumpkin", "5", 10, "yes"); 
+Insert INTO icecream VALUES (7, "Raspberry", "5", 10, "yes"); 
+Insert INTO icecream VALUES (8, "Swirl", "5", 19, "yes"); 
+Insert INTO icecream VALUES (9, "Blackberry", "5", 18, "no"); 
+Insert INTO icecream VALUES (10, "Pineapple", "5", 15, "yes"); 
+Insert INTO icecream VALUES (11, "Apple", "5", 10, "no"); 
+Insert INTO icecream VALUES (12, "Chocolate butter", "5", 10, "yes"); 
+Insert INTO icecream VALUES (13, "Strawberry", "5", 16, "yes"); 
+Insert INTO icecream VALUES (14, "Crumble", "5", 12, "yes"); 
+Insert INTO icecream VALUES (15, "Coconut", "5", 10, "no");
+SELECT * FROM icecream;
+SELECT SUM(PRICE) FROM icecream
+
